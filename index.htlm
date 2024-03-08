@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; URL='http://www.google.fr/'" />
+    <title>Mon Site Web avec Image</title>
+    <style>
+        /* CSS pour styliser l'image */
+        img {
+            width: 100%; /* Adapte la largeur de l'image à celle du conteneur */
+            max-width: 600px; /* Largeur maximale de l'image */
+            height: auto; /* Garde le ratio de l'image */
+            display: block; /* Assure que l'image ne soit pas en ligne */
+            margin: 0 auto; /* Centre l'image horizontalement */
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- HTML pour afficher l'image -->
+    <img src="img/image.jpeg" alt="Description de l'image">
+
+</body>
+
+</html>
